@@ -8,4 +8,11 @@ pipeline {
             }
         }
     }
+	post
+	{
+		always
+		{
+    		sh 'echo "\n\n\n\nbye\n\n\n\n"'
+		}
+	}
 }
