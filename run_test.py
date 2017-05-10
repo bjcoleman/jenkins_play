@@ -6,3 +6,6 @@ def testConvertZero():
 
 def testConvertOne():
     assert toRomanNumeral(1) is "I"
+
+def testConvertTwo():
+    assert toRomanNumeral(2) is "II"
