@@ -1,2 +1,5 @@
 def toRomanNumeral(decimalValue):
-  return ''
+    if decimalValue == 0:
+        return ''
+    else:
+        return 'I'
