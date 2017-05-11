@@ -1,11 +1,11 @@
 
-from decimalToRoman import toRomanNumeral
+from decimal_to_roman import decimal_to_roman
 
 def testConvertZero():
-    assert toRomanNumeral(0) is ''
+    assert decimal_to_roman(0) is ''
 
 def testConvertOne():
-    assert toRomanNumeral(1) is "I"
+    assert decimal_to_roman(1) is "I"
 
 def testConvertTwo():
-    assert toRomanNumeral(2) is "III"
+    assert decimal_to_roman(2) is "II"
