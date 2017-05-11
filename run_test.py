@@ -8,4 +8,4 @@ def testConvertOne():
     assert toRomanNumeral(1) is "I"
 
 def testConvertTwo():
-    assert toRomanNumeral(2) is "II"
+    assert toRomanNumeral(2) is "III"
