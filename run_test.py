@@ -9,3 +9,9 @@ def testConvertOne():
 
 def testConvertTwo():
     assert decimal_to_roman(2) == "II"
+
+def testConvertThree():
+    assert decimal_to_roman(3) == "III"
+
+def testConvertFour():
+    assert decimal_to_roman(4) == "IV"

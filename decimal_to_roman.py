@@ -11,3 +11,5 @@ def decimal_to_roman(decimal_value):
         return ''
     elif decimal_value < 4:
         return 'I' + decimal_to_roman(decimal_value - 1)
+    elif decimal_value == 4:
+        return 'IV'
