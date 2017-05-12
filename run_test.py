@@ -5,7 +5,7 @@ def testConvertZero():
     assert decimal_to_roman(0) is ''
 
 def testConvertOne():
-    assert decimal_to_roman(1) is "I"
+    assert decimal_to_roman(1) == "I"
 
 def testConvertTwo():
-    assert decimal_to_roman(2) is "II"
+    assert decimal_to_roman(2) == "II"

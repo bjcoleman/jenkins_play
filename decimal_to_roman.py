@@ -9,6 +9,5 @@ def decimal_to_roman(decimal_value):
     """
     if decimal_value == 0:
         return ''
-    elif decimal_value == 2:
-        return 'II'
-    return 'I'
+    elif decimal_value < 4:
+        return 'I' + decimal_to_roman(decimal_value - 1)
