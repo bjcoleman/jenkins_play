@@ -24,3 +24,6 @@ def testConvertSix():
 
 def testConvertSeven():
     assert decimal_to_roman(7) == 'VII'
+
+def testConvertEight():
+    assert decimal_to_roman(8) == "VIII"
