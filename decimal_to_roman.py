@@ -3,6 +3,7 @@ This program is a kata on decimal to roman numeral
 conversion.
 """
 
+
 def decimal_to_roman(decimal_value):
     """
     Convert a number from decimal to roman numeral
@@ -13,3 +14,5 @@ def decimal_to_roman(decimal_value):
         return 'I' + decimal_to_roman(decimal_value - 1)
     elif decimal_value == 4:
         return 'IV'
+    elif decimal_value == 5:
+        return 'V'

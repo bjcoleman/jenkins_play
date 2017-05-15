@@ -15,3 +15,6 @@ def testConvertThree():
 
 def testConvertFour():
     assert decimal_to_roman(4) == "IV"
+
+def testConvertFive():
+    assert decimal_to_roman(5) == 'V'
