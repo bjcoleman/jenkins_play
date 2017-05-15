@@ -16,3 +16,5 @@ def decimal_to_roman(decimal_value):
         return 'IV'
     elif decimal_value == 5:
         return 'V'
+    elif decimal_value < 9:
+        return 'V' + decimal_to_roman(decimal_value - 5)
