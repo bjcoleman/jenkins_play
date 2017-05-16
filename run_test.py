@@ -5,16 +5,16 @@ def testConvertZero():
     assert decimal_to_roman(0) is ''
 
 def testConvertOne():
-    assert decimal_to_roman(1) == "I"
+    assert decimal_to_roman(1) == 'I'
 
 def testConvertTwo():
-    assert decimal_to_roman(2) == "II"
+    assert decimal_to_roman(2) == 'II'
 
 def testConvertThree():
-    assert decimal_to_roman(3) == "III"
+    assert decimal_to_roman(3) == 'III'
 
 def testConvertFour():
-    assert decimal_to_roman(4) == "IV"
+    assert decimal_to_roman(4) == 'IV'
 
 def testConvertFive():
     assert decimal_to_roman(5) == 'V'
@@ -26,7 +26,10 @@ def testConvertSeven():
     assert decimal_to_roman(7) == 'VII'
 
 def testConvertEight():
-    assert decimal_to_roman(8) == "VIII"
+    assert decimal_to_roman(8) == 'VIII'
 
 def testConvertNine():
-    assert decimal_to_roman(9) == "IX"
+    assert decimal_to_roman(9) == 'IX'
+
+def testConvertTen():
+    assert decimal_to_roman(10) = 'X'
